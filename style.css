@@ -30,6 +30,7 @@ body {
   margin-left: 100px;     /* Mesmo tamanho da sidebar */
   padding: 255px;
   flex: 1;
+  font-size: 30px;
 }
 
 /* Estilos Básicos */
