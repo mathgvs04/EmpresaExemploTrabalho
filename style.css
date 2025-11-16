@@ -27,7 +27,7 @@ body {
 
 /* Conteúdo principal deslocado para a direita */
 .content {
-  margin-left: 100px;     /* Mesmo tamanho da sidebar */
+  margin-left: 150px;     /* Mesmo tamanho da sidebar */
   padding: 255px;
   flex: 1;
 }
@@ -62,5 +62,18 @@ body {
 
 .logo-container img{
   width: 160px;
+  height: auto;
+}
+
+.homemFelizMenu{
+  position: fixed;
+  top: ;
+  bottom: ;
+  left: 800px; /* Começa onde termina a sidebar */
+  padding: 10px;
+}
+
+.homemFelizMenu img{
+  width: 1600px;
   height: auto;
 }
