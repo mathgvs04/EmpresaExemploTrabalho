@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout base: sidebar fixa e conteúdo ao lado */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar lateral esquerda */
+.sidebar {
+  width: 90px;
+  background-color: #1e1e1e;
+  color: rgb(184, 18, 18);
+  padding: 20px;
+  position: fixed;        /* Fixa no lado esquerdo */
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Conteúdo principal deslocado para a direita */
+.content {
+  margin-left: 100px;     /* Mesmo tamanho da sidebar */
+  padding: 255px;
+  flex: 1;
+}
+
+/* Estilos Básicos */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: rgb(201, 22, 22);
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 250px; /* Começa onde termina a sidebar */
+  padding: 10px;
+  background: white; /* como a logo tem fundo branco */
+  z-index: 1000;
+}
