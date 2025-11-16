@@ -1,6 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url("images\\fundo.jpg");
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Layout base: sidebar fixa e conteúdo ao lado */
@@ -50,8 +54,13 @@ body {
 .logo-container {
   position: fixed;
   top: 0;
-  left: 250px; /* Começa onde termina a sidebar */
+  left: 150px; /* Começa onde termina a sidebar */
   padding: 10px;
   background: white; /* como a logo tem fundo branco */
   z-index: 1000;
+}
+
+.logo-container img{
+  width: 160px;
+  height: auto;
 }
